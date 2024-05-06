@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import Action from './action/action';
+// import Parent from './passdatafromchild/parentComp';
+// import Routerexample from "./routing/routeExample";
 import reportWebVitals from './reportWebVitals';
+import Signup from "./meenakshiProject/pages/login.js";
+import Login from "./meenakshiProject/pages/signup.js";
+import Forgotpassword from "./meenakshiProject/pages/forgotPassword.js";
+import App from './App.js';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <App />
   </React.StrictMode>
 );
 
